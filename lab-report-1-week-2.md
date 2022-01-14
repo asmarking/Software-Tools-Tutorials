@@ -1,13 +1,13 @@
 
 ***Setting Up Visual Studio Code***
 ![Image](VisualStudioCode.jpg)
-* First I followed this link [Github](https://code.visualstudio.com/) and chose download
-* Then I opened the app and pressed 'file' in the upper left corner and then 'new file' to create a new file. 
+* First I followed this link [Visual Studio](https://code.visualstudio.com/) and chose download
+* Then I opened the app and pressed 'file' in the upper left corner and then 'new file' to create a new file. Ive deciced to name the file example.
 
 ***Remote Connecting***  
 
 ![Image](SSH.jpg) 
-* To log into my remote cs15l account on the ieng6 server I first Opened the terminal in VSCode and wrote the following command: `ssh cs15lwi22avq@ieng6.ucsd.edu` 
+* To log into my remote cs15l account on the ieng6 server I first Opened the terminal with Ctrl+backtick in VSCode and wrote the following command: `ssh cs15lwi22avq@ieng6.ucsd.edu` 
 *  Next an authenticity of host message was displayed and I simply typed yes to make it dissapear.
 * Then I entered my account password. Dont be alarmed if you cant see any charachters when you type your password. This is normal.
 
@@ -18,16 +18,13 @@ you should see something like this:
 ![Image](pwd.jpg)
  pwd prints the absolute path to your working directory. Notice you may not recognize any of these directories. That is because you are logged in to the ieng6 server! You are no longer working on your computer.
  * Now type the command:  `mkdir example` 
- * Now type the command: `ls`
- * You should see this:  
+ * Now type the command: `ls`  
  ![Image](lsANDmkdir.jpg)
  
  ***Moving Files With `scp`***
 
  * `scp` copies files between host on a network
- * in my current directory (locally) I made a new file called "example"
- * To copy the file "example" from my current working directory to my ieng6 server accounts 
- home directory I used the command:
+ * To copy the file "example" I created earlier from my current working directory to my ieng6 server account home directory I used the command:
  `scp example cs15lwi22avq@ieng6.ucsd.edu`
 ![Image](SCP.jpg)
 
@@ -46,3 +43,4 @@ you should see something like this:
 * To locally run the file "DesignRecipeExamples.java" whose location is the home directory of my cs15l remote account, I wrote the following command: `ssh cs15lwi22avq@ieng6.ucsd.edu "javac DesignRecipeExamples.java ; java DesignRecipeExamples"`
 ![Image](OptimizingSSH.jpg)
 * The quotes are used after an 'ssh' to write additional commands and ';' is used to seperate commands. 
+* Another example - `ssh cs15lwi22avq@ieng6.ucsd.edu "ls"`
