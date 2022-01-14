@@ -29,10 +29,10 @@ The "cs15lwi22avq" should be replaced with your course account.
  * `scp` copies files between host on a network
  * To copy the file "example" I created earlier from my current working directory to my ieng6 server account home directory I used the command:
  `scp example cs15lwi22avq@ieng6.ucsd.edu`
- Note you must be in the directory containing the file example. Otherwise you will need to put the full path to the exmaple file.
+ Note you must be in the directory containing the file example. Otherwise you will need to put the full path to the example file.
 ![Image](SCP.jpg)
 * to copy a file from a remote account to your local computer, just switch the order. For example, to copy the file "DesignRecipeExamples.java" in my remote account to my local computer I did the following command:
-`scp cs15lwi22avq@ieng.ucsd.edu:~/ C:\Users\Austin`
+`scp cs15lwi22avq@ieng.ucsd.edu:~/DesignRecipleExamples.java C:\Users\Austin`
 
 <font size="5"> Setting an SSH Key </font>
 * to avoid the hassle of typing my password in everytime I ssh into my remote cs15l account, I used ssh keys so I wouldnt have to do anything.
