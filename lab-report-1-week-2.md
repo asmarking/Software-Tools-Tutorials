@@ -3,7 +3,7 @@
 <font size="5"> Setting Up Visual Studio Code </font>
 ![Image](VisualStudioCode.jpg)
 * First I followed this link [Visual Studio](https://code.visualstudio.com/) and chose download
-* Then I opened the app and pressed 'file' in the upper left corner and then 'new file' to create a new file. Ive deciced to name the file example.
+* Then I opened the app and pressed 'file' in the upper left corner and then 'new file' to create a new file. Ive deciced to name the file example. Save the file with ctrl+s on windows or cmd+s for mac.
 
 <font size="5"> Remote Connecting </font>  
 
