@@ -1,4 +1,5 @@
 <font size="6"> Lab Report 1: VSCODE, SSH, SCP</font>
+
 ***Setting Up Visual Studio Code***
 ![Image](VisualStudioCode.jpg)
 * First I followed this link [Visual Studio](https://code.visualstudio.com/) and chose download
