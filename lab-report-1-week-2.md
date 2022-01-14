@@ -1,4 +1,4 @@
-<font size="6"> Lab Report 1: VSCODE, SSH, SCP</font>  
+<font size="6"> Lab Report 1: VSCODE, SSH, SCP</font>\ 
 
 <font size="5"> Setting Up Visual Studio Code </font>
 ![Image](VisualStudioCode.jpg)
