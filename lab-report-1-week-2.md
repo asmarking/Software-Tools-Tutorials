@@ -45,5 +45,5 @@ you should see something like this:
 
 * You can log in to a remote server and perform commands all in one line! 
 * To locally run the file "DesignRecipeExamples.java" whose location is the home directory of my cs15l remote account, I wrote the following command: `ssh cs15lwi22avq@ieng6.ucsd.edu "javac DesignRecipeExamples.java ; java DesignRecipeExamples"`
-![Image](optimizingssh.jpg)
+![Image](OptimizingSSH.jpg)
 * The quotes are used after an 'ssh' to write additional commands and ';' is used to seperate commands. 
