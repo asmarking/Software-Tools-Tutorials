@@ -8,7 +8,7 @@
 <font size="5"> Remote Connecting </font>  
 
 ![Image](SSH.jpg) 
-* To log into my remote cs15l account on the ieng6 server I first Opened the terminal with Ctrl+backtick in VSCode and wrote the following command: `ssh cs15lwi22avq@ieng6.ucsd.edu` 
+* To log into my remote cs15l account on the ieng6 server I first Opened the terminal with Ctrl+backtick in VSCode and wrote the following command: `$ ssh cs15lwi22avq@ieng6.ucsd.edu` 
 The "cs15lwi22avq" should be replaced with your course account.
 *  Next an authenticity of host message was displayed and I simply typed yes to make it dissapear.
 * Then I entered my account password. Dont be alarmed if you cant see any charachters when you type your password. This is normal.
@@ -16,11 +16,11 @@ The "cs15lwi22avq" should be replaced with your course account.
 <font size="5"> Some Commands </font>  
 
 
-* type to the terminal the following command: `pwd`  
+* type to the terminal the following command: `$ pwd`  
 ![Image](pwd.jpg)
  pwd prints the absolute path to your working directory. Notice you may not recognize any of these directories. That is because you are logged in to the ieng6 server! You are no longer working on your computer.
- * Now type the command:  `mkdir example` 
- * Now type the command: `ls`  
+ * Now type the command:  `$ mkdir example` 
+ * Now type the command: `$ ls`  
  ![Image](lsANDmkdir.jpg)
  * mkdir creates a new directory and ls prints the files and directories in your current directory.
  
@@ -28,11 +28,11 @@ The "cs15lwi22avq" should be replaced with your course account.
 
  * `scp` copies files between host on a network
  * To copy the file "example" I created earlier from my current working directory to my ieng6 server account home directory I used the command:
- `scp example cs15lwi22avq@ieng6.ucsd.edu`
+ `$ scp example cs15lwi22avq@ieng6.ucsd.edu`
  Note you must be in the directory containing the file example. Otherwise you will need to put the full path to the example file.
 ![Image](SCP.jpg)
 * to copy a file from a remote account to your local computer, just switch the order. For example, to copy the file "DesignRecipeExamples.java" in my remote account to my local computer I did the following command:
-`scp cs15lwi22avq@ieng.ucsd.edu:~/DesignRecipleExamples.java C:\Users\Austin`
+`$ scp cs15lwi22avq@ieng.ucsd.edu:~/DesignRecipleExamples.java C:\Users\Austin`
 
 <font size="5"> Setting an SSH Key </font>
 * to avoid the hassle of typing my password in everytime I ssh into my remote cs15l account, I used ssh keys so I wouldnt have to do anything.
@@ -46,7 +46,7 @@ The "cs15lwi22avq" should be replaced with your course account.
 <font size="5"> Optimizing Remote Access </font>
 
 * You can log in to a remote server and perform commands all in one line! 
-* For example, To run the file "DesignRecipeExamples.java" whose location is the home directory of my cs15l remote account, I wrote the following command: `ssh cs15lwi22avq@ieng6.ucsd.edu "javac DesignRecipeExamples.java ; java DesignRecipeExamples"`
+* For example, To run the file "DesignRecipeExamples.java" whose location is the home directory of my cs15l remote account, I wrote the following command: `$ ssh cs15lwi22avq@ieng6.ucsd.edu "javac DesignRecipeExamples.java ; java DesignRecipeExamples"`
 ![Image](OptimizingSSH.jpg)
 * The quotes are used after an 'ssh' to write additional commands and ';' is used to seperate commands. 
-* Another example - `ssh cs15lwi22avq@ieng6.ucsd.edu "ls"`
+* Another example - `$ ssh cs15lwi22avq@ieng6.ucsd.edu "ls"`
