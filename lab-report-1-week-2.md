@@ -29,7 +29,6 @@ you should see something like this:
  * To copy the file "example" from my current working directory to my ieng6 server accounts 
  home directory I used the command:
  `scp example cs15lwi22avq@ieng6.ucsd.edu`
-* you should see this
 ![Image](SCP.jpg)
 
 ***Setting an SSH Key***
