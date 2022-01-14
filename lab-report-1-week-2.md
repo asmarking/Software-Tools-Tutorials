@@ -20,6 +20,7 @@ The "cs15lwi22avq" should be replaced with your course account.
  * Now type the command:  `mkdir example` 
  * Now type the command: `ls`  
  ![Image](lsANDmkdir.jpg)
+ * mkdir creates a new directory and ls prints the files and directories in your current directory.
  
  ***Moving Files With `scp`***
 
