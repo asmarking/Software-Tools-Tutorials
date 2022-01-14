@@ -1,4 +1,4 @@
-
+<font size="6"> Lab Report 1: VSCODE, SSH, SCP</font>
 ***Setting Up Visual Studio Code***
 ![Image](VisualStudioCode.jpg)
 * First I followed this link [Visual Studio](https://code.visualstudio.com/) and chose download
@@ -8,13 +8,13 @@
 
 ![Image](SSH.jpg) 
 * To log into my remote cs15l account on the ieng6 server I first Opened the terminal with Ctrl+backtick in VSCode and wrote the following command: `ssh cs15lwi22avq@ieng6.ucsd.edu` 
+The "cs15lwi22avq" should be replaced with your course account.
 *  Next an authenticity of host message was displayed and I simply typed yes to make it dissapear.
 * Then I entered my account password. Dont be alarmed if you cant see any charachters when you type your password. This is normal.
 
 ***Some Commands***
 
 * type to the terminal the following command: `pwd`  
-you should see something like this:
 ![Image](pwd.jpg)
  pwd prints the absolute path to your working directory. Notice you may not recognize any of these directories. That is because you are logged in to the ieng6 server! You are no longer working on your computer.
  * Now type the command:  `mkdir example` 
@@ -29,7 +29,7 @@ you should see something like this:
 ![Image](SCP.jpg)
 
 ***Setting an SSH Key***
-* to avoid the hassle of typing my password in everytime I ssh into my remote cs15l account, I used ssh keys so I wouldnt have to do anything..
+* to avoid the hassle of typing my password in everytime I ssh into my remote cs15l account, I used ssh keys so I wouldnt have to do anything.
 * To do this, I first typed the command: `$ ssh -keygen`
 ![Image](sshkeygen.jpg)
 * then I entered the location to save the ssh key, "C:\Users\Austin/.ssh/id_rsa"
