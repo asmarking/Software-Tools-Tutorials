@@ -1,4 +1,4 @@
-![Image](https://upload.wikimedia.org/wikipedia/commons/2/28/HelloWorld.svg)
-
-**VS CODE SETUP**
-
+**LAB REPORT ONE**\
+Installing VSCODE -
+[Lab Report 1](lab-report-1-week-2.html)
+[Lab Report 1]( https://asmarking.github.io/cse15l-lab-reports/)
