@@ -46,7 +46,7 @@ The "cs15lwi22avq" should be replaced with your course account.
 <font size="5"> Optimizing Remote Access </font>
 
 * You can log in to a remote server and perform commands all in one line! 
-* For example, To locally run the file "DesignRecipeExamples.java" whose location is the home directory of my cs15l remote account, I wrote the following command: `ssh cs15lwi22avq@ieng6.ucsd.edu "javac DesignRecipeExamples.java ; java DesignRecipeExamples"`
+* For example, To run the file "DesignRecipeExamples.java" whose location is the home directory of my cs15l remote account, I wrote the following command: `ssh cs15lwi22avq@ieng6.ucsd.edu "javac DesignRecipeExamples.java ; java DesignRecipeExamples"`
 ![Image](OptimizingSSH.jpg)
 * The quotes are used after an 'ssh' to write additional commands and ';' is used to seperate commands. 
 * Another example - `ssh cs15lwi22avq@ieng6.ucsd.edu "ls"`
