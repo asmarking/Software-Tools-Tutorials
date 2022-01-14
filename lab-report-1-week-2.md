@@ -29,7 +29,10 @@ The "cs15lwi22avq" should be replaced with your course account.
  * `scp` copies files between host on a network
  * To copy the file "example" I created earlier from my current working directory to my ieng6 server account home directory I used the command:
  `scp example cs15lwi22avq@ieng6.ucsd.edu`
+ Note you must be in the directory containing the file example. Otherwise you will need to put the full path to the exmaple file.
 ![Image](SCP.jpg)
+* to copy a file from a remote account to your local computer, just switch the order. For example, to copy the file "DesignRecipeExamples.java" in my remote account to my local computer I did the following command:
+`scp cs15lwi22avq@ieng.ucsd.edu:~/ C:\Users\Austin`
 
 <font size="3">***Setting an SSH Key***</font>
 * to avoid the hassle of typing my password in everytime I ssh into my remote cs15l account, I used ssh keys so I wouldnt have to do anything.
@@ -37,13 +40,13 @@ The "cs15lwi22avq" should be replaced with your course account.
 ![Image](sshkeygen.jpg)
 * then I entered the location to save the ssh key, "C:\Users\Austin/.ssh/id_rsa"
 * next I used the following command 
-`scp C:\Users\Austin/.ssh/id_rsa.pub cs15lwi22avq@ieng6.ucsd.edu:~/.ssh/authorized_keys` to save the public ssh key file I generated into my remote account on ieng6 in the '~/.ssh/authorized_keys' directory
+`scp C:\Users\Austin/.ssh/id_rsa.pub cs15lwi22avq@ieng6.ucsd.edu:~/.ssh/authorized_keys` to copy the public ssh key file I generated into my remote account on ieng6 in the '~/.ssh/authorized_keys' directory
 * Now I can login just using ssh xD
 
 <font size="3">***Optimizing Remote Access***</font>
 
 * You can log in to a remote server and perform commands all in one line! 
-* To locally run the file "DesignRecipeExamples.java" whose location is the home directory of my cs15l remote account, I wrote the following command: `ssh cs15lwi22avq@ieng6.ucsd.edu "javac DesignRecipeExamples.java ; java DesignRecipeExamples"`
+* For example, To locally run the file "DesignRecipeExamples.java" whose location is the home directory of my cs15l remote account, I wrote the following command: `ssh cs15lwi22avq@ieng6.ucsd.edu "javac DesignRecipeExamples.java ; java DesignRecipeExamples"`
 ![Image](OptimizingSSH.jpg)
 * The quotes are used after an 'ssh' to write additional commands and ';' is used to seperate commands. 
 * Another example - `ssh cs15lwi22avq@ieng6.ucsd.edu "ls"`
