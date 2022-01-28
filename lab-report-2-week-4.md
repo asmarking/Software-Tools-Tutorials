@@ -1,5 +1,7 @@
 FIRST COMMIT
+
 ![image](firstCommit.jpg)
+
 [failure inducing code](https://asmarking.github.io/markdown-parse/test2-file.md)
 
 bug - code did not check for when indexOf returns -1 which led to the symptom, an infinite loop. The test file contained a bracket but then no parentheses so closeParen = -1 
