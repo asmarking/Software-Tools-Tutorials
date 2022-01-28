@@ -7,7 +7,7 @@ Solve - if indexOf returns -1 for one of the following
 ']','[','(',')' then just return toReturn because there are no more links. 
 
 ![image](commitTwo.jpg)
-[failure inducing code](https://asmarking.github.io/markdown-parse/test-file5.md)
+[failure inducing code](https://asmarking.github.io/markdown-parse/test-file5.md)  
 bug - code did not check if the parentheses for the link came directly after the bracket ']'  
 symptom - printing link "somepage.com" when it should not print anything
 Solve - if the '(' does not come directly after [ then returnToreturn because it is not a link
