@@ -28,7 +28,7 @@ The "cs15lwi22avq" should be replaced with your course account.
 
  * `scp` copies files between host on a network
  * To copy the file "example" I created earlier from my current working directory to my ieng6 server account home directory I used the command:
- `$ scp example cs15lwi22avq@ieng6.ucsd.edu`
+ `$ scp example cs15lwi22avq@ieng6.ucsd.edu`  
  Note you must be in the directory containing the file example. Otherwise you will need to put the full path to the example file.
 ![Image](SCP.jpg)
 * to copy a file from a remote account to your local computer, just switch the order. For example, to copy the file "DesignRecipeExamples.java" in my remote account to my local computer I did the following command:
@@ -46,7 +46,9 @@ The "cs15lwi22avq" should be replaced with your course account.
 <font size="5"> Optimizing Remote Access </font>
 
 * You can log in to a remote server and perform commands all in one line! 
-* For example, To run the file "DesignRecipeExamples.java" whose location is the home directory of my cs15l remote account, I wrote the following command: `$ ssh cs15lwi22avq@ieng6.ucsd.edu "javac DesignRecipeExamples.java ; java DesignRecipeExamples"`
+* For example, To run the file "DesignRecipeExamples.java" whose location is the home directory of my cs15l remote account, I wrote the following command: `$ ssh cs15lwi22avq@ieng6.ucsd.edu "javac DesignRecipeExamples.java ; java DesignRecipeExamples"`  
+TOTAL KEYSTROKES : 93 
 ![Image](OptimizingSSH.jpg)
 * The quotes are used after an 'ssh' to write additional commands and ';' is used to seperate commands. 
-* Another example - `$ ssh cs15lwi22avq@ieng6.ucsd.edu "ls"`
+* Another example - `$ ssh cs15lwi22avq@ieng6.ucsd.edu "ls"`  
+KEYSTROKES: 36
