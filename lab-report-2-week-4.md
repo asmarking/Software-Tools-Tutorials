@@ -30,4 +30,4 @@ The symptom was my program was not printing any links when it should have printe
 
 ![image](error3.jpg)
 
-The symptom was a result of my program containing `[] ()` before the legit link `()[https://hiIamAlink]`. The parentheses being not directly after the bracket caused my program to terminiate when it shouldnt have, so the bug is my program terminated anytime a parentheses was not directly after ']'.
+The symptom was a result of the test file containing `[] ()` before the legit link `()[https://hiIamAlink]`. The parentheses being not directly after the bracket caused my program to terminiate when it shouldnt have, so the bug is my program terminated anytime a parentheses was not directly after ']'.
