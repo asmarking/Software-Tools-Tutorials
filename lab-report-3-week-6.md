@@ -13,4 +13,4 @@ EXAMPLE OF LOGGING IN WITH ALIAS
 EXAMPLE OF SCP WITH ALIAS
 
 
-![image](SCP.jpg)
+![image](scp_ssh.jpg)
