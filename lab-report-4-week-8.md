@@ -1,3 +1,4 @@
+## **Links**
 
 [my markdown-parse repository](https://github.com/asmarking/markdown-parse.git)
 
@@ -31,13 +32,13 @@
 
 ## **Test results**
 
-### **my reporsitory** 
+### **my markdown-parse** 
 
 ![image](partone.jpg)
 
 ![image](partTwo.jpg)
 
-### **lab partners repository**
+### **lab partners markdown-parse**
 
 ![image](rn.jpg)
 
