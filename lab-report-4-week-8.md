@@ -1,4 +1,8 @@
 
+[my markdown-parse repository](https://github.com/asmarking/markdown-parse.git)
+
+[lab partners markdown repository](https://github.com/nseyoum/CSE15L-Platypus.git)
+
 ## **snippet one** :
 
     expected answer ---> List.of("google.com")
@@ -35,8 +39,7 @@
 
 ### **lab partners repository**
 
-![image](lab8_platypusResultsone.jpg)
-![imgae](lab8_testPlaytpus2.jpg)
+![image](rn.jpg)
 
 ## **Questions**
 
