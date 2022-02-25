@@ -36,11 +36,11 @@
 ### **lab partners repository**
 
 ![image](lab8_platypusResultsone.jpg)
-![imgae](lab8_testPlaytpus2,jpg)
+![imgae](lab8_testPlaytpus2.jpg)
 
 ## **Questions**
 
-### **Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks?** ###
+### **Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks?** ### 
 
 I do think the solution could be done in less than ten lines of code. There could be a variable that counts the backticks. if a second backtick is found then counter would be at two and you can disregard all of the code between the first and second backticks. 
 
