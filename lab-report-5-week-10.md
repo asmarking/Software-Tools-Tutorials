@@ -1,4 +1,5 @@
 
+**How to Compare Files and Find The Bug**  
 
 In the directory containing the professors implementation of markdown parse -  
 `bash script.sh > othermarkdown.txt`
@@ -13,6 +14,8 @@ to compare the files I ran -
 Then to see where the files differed, I ran -  
 `cat diff.txt`   
 
+**Program Results:** 
+
 My programs return value is wrong.  
 The professors program return value is right.
 
@@ -20,11 +23,13 @@ The professors program return value is right.
 
 I know this because I found the expected output by plugging in the markdown text from file 577.md into this [mark-down-previewer](https://spec.commonmark.org/dingus/)
 
-exepcted output:
+**Exepcted Output:**
 
 '[]'     
 
 ....this empty array means there are zero valid links in file 577.md
+
+**How to fix**  
 
 To fix my code, I need to check if the there is a '!' before []. The file 577.md contains
 just one line of markdown :  
