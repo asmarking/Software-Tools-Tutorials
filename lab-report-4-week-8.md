@@ -55,3 +55,9 @@ I also think this program could be fixed by using counters, but not in less than
 ### **Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.** 
  
 If you are only focusing on finding matching pairs of open and closed brackets/parentheses then it should not matter if they are on seperate lines.If you are keeping track of the counters that I mentioned before, then the new line is irrelivant and so using the same implementation for snippet 2 should also work for snippet 3. So assuming the implementation for snippet two is already done correctly, the new lines problem should be fixable in less than ten lines (or zero lines)
+
+[foo]:
+      /url
+           'the title'
+
+[foo]
